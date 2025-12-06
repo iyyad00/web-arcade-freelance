@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Morpion - Arcade Fun</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header class="header">
+        <h1>❌ Morpion (Tic-Tac-Toe) ⭕</h1>
+        <a href="index.html" class="back-button">← Retour à l'Accueil</a>
+    </header>
+
+    <main class="game-area">
+        <div class="game-info">
+            <p id="game-status">Au tour du joueur **X**</p>
+            <button id="reset-button">Recommencer la partie</button>
+        </div>
+
+        <div class="morpion-grid" id="morpion-grid">
+            </div>
+
+        <div class="score-board">
+            <h3>Tableau des Scores (Local)</h3>
+            <p>Joueur X : <span id="score-x">0</span> victoires</p>
+            <p>Joueur O : <span id="score-o">0</span> victoires</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Arcade Fun. Le Morpion.</p>
+    </footer>
+
+    <script src="morpion.js"></script>
+</body>
+</html>
