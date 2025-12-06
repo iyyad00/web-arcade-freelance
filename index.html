@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Fun - Vos Jeux Préférés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>🎮 Arcade Fun 🕹️</h1>
+        <p>Bienvenue sur notre collection de jeux d'arcade classiques !</p>
+    </header>
+
+    <main class="game-container">
+        <h2>Liste des Jeux Disponibles</h2>
+        <div class="game-list">
+            
+            <div class="game-card" id="card-morpion">
+                <h3>Le Morpion (Tic-Tac-Toe)</h3>
+                <p>Le classique du papier-crayon. Jouez contre un ami !</p>
+                <a href="morpion.html" class="play-button">Jouer !</a>
+                <div class="score-display">Meilleur Score : <span id="score-morpion">0</span></div>
+            </div>
+
+            <div class="game-card" id="card-snake">
+                <h3>Snake</h3>
+                <p>Mangez les fruits et faites grandir votre serpent !</p>
+                <a href="snake.html" class="play-button coming-soon">Bientôt Disponible</a>
+                <div class="score-display">Meilleur Score : <span id="score-snake">0</span></div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Arcade Fun. Développé avec amour et JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
