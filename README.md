@@ -2,7 +2,7 @@
 
 Ce dépôt contient une collection de mini-jeux simples développés entièrement en frontend (HTML, CSS, JavaScript). 
 
-**URL du site déployé :** [Ajoutez ici le lien de votre site GitHub Pages après l'avoir activé]
+**URL du site déployé :** (https://iyyad00.github.io/web-arcade-freelance/)
 
 ---
 
@@ -24,7 +24,7 @@ Ce dépôt contient une collection de mini-jeux simples développés entièremen
 ## 👨‍💻 À propos du Développeur
 Je suis un développeur en freelance passionné par la création d'expériences web interactives. Ce projet sert de portfolio pour démontrer mes compétences en développement frontend.
 
-**Contact :** [Votre adresse e-mail ou votre lien LinkedIn]
+**Contact :** iyyadarbaoui12@gmail.com.
 
 ---
 
